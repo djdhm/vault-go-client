@@ -6,7 +6,7 @@ import (
 
 	"github.com/k0kubun/pp"
 
-	vault "github.com/riotgames/vault-go-client"
+	vault "github.com/djdhm/vault-go-client"
 )
 
 type Secret struct {

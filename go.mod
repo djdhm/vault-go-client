@@ -1,4 +1,4 @@
-module github.com/riotgames/vault-go-client
+module github.com/djdhm/vault-go-client
 
 go 1.12
 

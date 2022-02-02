@@ -16,13 +16,13 @@ This is a Golang client for Vault. It is currently under development.  v1.0.0 wi
 # Usage
 To retrieve this package run:
 ```
-go get github.com/riotgames/vault-go-client
+go get github.com/djdhm/vault-go-client
 ```
 
 ## Creating a Client
 The following will create a client with default configuration:
 ```
-import vault "github.com/riotgames/vault-go-client"
+import vault "github.com/djdhm/vault-go-client"
 ...
 
 // Uses VAULT_ADDR env var to set the clients URL
