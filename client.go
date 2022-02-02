@@ -1,9 +1,16 @@
 package vault
 
-import hashivault "github.com/hashicorp/vault/api"
+import (
+	"fmt"
+	"log"
+
+	hashivault "github.com/hashicorp/vault/api"
+)
 
 func DefaultConfig() *hashivault.Config {
-	return hashivault.DefaultConfig()
+	fmt.Println("Testing ")
+	return nil
+	//return hashivault.DefaultConfig()
 }
 
 type Client struct {
@@ -14,7 +21,8 @@ type Client struct {
 
 func NewClient(config *hashivault.Config) (*Client, error) {
 	client, err := hashivault.NewClient(config)
-
+	log.Println("TEST .........")
+	log.Println("rESFSFS")
 	if err != nil {
 		return nil, err
 	}
